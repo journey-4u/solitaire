@@ -8,14 +8,13 @@
 </head>
 <body>
   <div class="app">
-    <header class="header">
-      <button type="button" class="btn btn-new" id="newGameBtn">New Game</button>
-      <button type="button" class="btn btn-undo" id="undoBtn" disabled aria-label="Undo">
-        <span class="btn-icon">↶</span> Undo
-      </button>
-    </header>
-
     <main class="game-board">
+      <div class="game-toolbar">
+        <button type="button" class="btn btn-new" id="newGameBtn">New Game</button>
+        <button type="button" class="btn btn-undo" id="undoBtn" disabled aria-label="Undo">
+          <span class="btn-icon">↶</span> Undo
+        </button>
+      </div>
       <div class="top-row">
         <div class="stock-area">
           <div class="pile stock" id="stock" data-pile="stock"></div>
